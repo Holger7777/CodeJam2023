@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73b5527330791b44a5cc97c8e3f8d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 13, y: 4}
+  size: {x: 2, y: 1}
   Offset: {x: 1.43, y: 0.9}
   PillPrefap: {fileID: 4993439143338381692, guid: b1ee36d270e63b548a94cea1f83bd40c, type: 3}
   gradient:

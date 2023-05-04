@@ -12,7 +12,7 @@ public class Finish : MonoBehaviour
         GameObject puzzle = GameObject.FindGameObjectWithTag("puzzle0");
        GameObject puzzle1 = GameObject.FindGameObjectWithTag("puzzle1");
         GameObject puzzle2 = GameObject.FindGameObjectWithTag("puzzle2");
-        if (puzzle == null && puzzle1 == null && puzzle2 == null)
+        if (puzzle == null && puzzle1 == null && puzzle2 == null && SceneManager.GetActiveScene().name == "GameScene")
         {
             SceneManager.LoadScene(5);
         }
