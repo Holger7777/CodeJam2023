@@ -52,7 +52,7 @@ public class bounce : MonoBehaviour
         Debug.Log(rb.velocity);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision) // https://docs.unity3d.com/ScriptReference/Collider2D.OnCollisionEnter2D.html
     {
         if(collision.gameObject.CompareTag("Pill")) // this code works by checking if there is a collision on the tag "pill" which all the pill prefaps are tagged with. 
         { 
