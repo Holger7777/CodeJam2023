@@ -46,4 +46,9 @@ public class Level : MonoBehaviour
             SceneManager.LoadScene(3);
         }
     }
+    public void restartGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
